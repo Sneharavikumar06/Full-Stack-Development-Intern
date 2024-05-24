@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Commerce</title>
+        <style>
+            body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 16px 0;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin-right: 40px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#products{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.product{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+        <div id="products">
+            <div class="product">
+                <img src="shirt.jpg" height="200px" width="200px">
+                <h1>Shirt</h1>
+                <p>This is a Shirt</p>
+                <button>Add to cart</button>
+                
+            </div>
+            <div class="product">
+                <img src="Shoe2.jpg" height="200px" width="200px">
+                <h1>Shoe</h1>
+                <p>This is a Shoe</p>
+                <button>Add to cart</button>
+                
+            </div>
+            <div class="product">
+                <img src="Watch.jpeg" height="200px" width="200px">
+                <h1>Watch</h1>
+                <p>This is a Watch</p>
+                <button>Add to cart</button>
+                
+            </div>
+            <div class="product">
+                <img src="purse.jpeg" height="200px" width="200px">
+                <h1>Shirt</h1>
+                <p>This is a Purse</p>
+                <button>Add to cart</button>
+                
+            </div>
+
+        </div>
+        <footer>Developed by Sneha R</footer>
+    </body>
+</html>
