@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Sneha" content="landing page">
+    <title>Landing Page</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
 
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.container{
+    background: url(tech.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cta{
+    text-decoration: none;
+    background-color: rgb(43,43,43);
+    padding: 10px;
+    border-radius: 5px;
+}
+.features{
+    text-align: center;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Landing Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <section class="container">
+            <h2>Welcome to our website</h2>
+            <p>Landing pages are different from other web pages in that they don’t live in the evergreen navigation of a website.
+                 
+            </p>
+            <a href="#" class="cta">Learn more</a>
+        </section>
+        <section class="features">
+            <h1>Features</h1>
+            <div class="feature">
+                <img src="ff.jpeg" height="400px" width="400px">
+                <p>Full stack development refers to the end-to-end application software development, including the front end and back end. <br>
+                    The front end consists of the user interface, and the back end takes care of the business logic and application workflows.</p>
+
+            </div>
+            <h1>Features</h1>
+            <div class="feature">
+                <img src="iot.jpg" height="400px" width="400px">
+                <p>IoT stands for Internet of Things. It refers to the interconnectedness of physical devices, such as appliances and vehicles,<br> 
+                    that are embedded with software,and connectivity which enables these objects to connect and exchange data. <br>
+                    This technology allows for the collection and sharing of data from a vast network of devices, creating opportunities for more efficient and automated systems.</p>
+
+            </div>
+            <h1>Features</h1>
+            <div class="feature">
+                <img src="ml.jpg" height="400px" width="400px">
+                <p>Machine learning is a method of data analysis that automates analytical model building.<br>
+                    It is a branch of artificial intelligence based on the idea that systems can learn from data,
+                    identify patterns and make decisions with minimal human intervention.
+
+                </p>
+
+            </div>
+
+        </section>
+        <footer>
+            <p>@copy desingned by Sneha R</p>
+        </footer>
+    
+</body>
+</html>
